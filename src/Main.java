@@ -8,4 +8,4 @@ public class Main {
         Report report1 = new HTMLreportgenerator(new HTMLreport());
         report.generate();
     }mnbdfnmv
-}
+}fjdhbjfb
