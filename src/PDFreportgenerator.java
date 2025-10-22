@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class PDFreportgenerator extends Report{
+    public PDFreportgenerator (ReportFormat reportFormat) {
+        super(reportFormat);
 
-public class PDFreportgenerator {
+    }
+
+    @Override
+    public void generate() {
+        reportFormat.generateReport();
+
+    }
 }

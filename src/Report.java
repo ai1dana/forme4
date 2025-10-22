@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public abstract class Report {
+    protected ReportFormat reportFormat;
 
-public class Report {
+    protected ReportFormat(ReportFormat reportFormat) {
+        this.reportFormat = reportFormat;
+    }
+
+    public abstract void generate();
+
 }

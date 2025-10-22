@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class HTMLreportgenerator extends Report {
+    public HTMLreportgenerator (ReportFormat reportFormat) {
+        super(reportFormat);
+    }
 
-public class HTMLreportgenerator {
+    @Override
+    public void generate() {
+        reportFormat.generateReport();
+    }
 }
